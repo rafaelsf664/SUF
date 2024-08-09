@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E0E0E0; /* Cinza claro */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FFA500; /* Laranja */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #000; /* Borda preta */
+        }
+        nav {
+            background-color: #4F4F4F; /* Cinza médio */
+            padding: 10px;
+            border-bottom: 2px solid #000; /* Borda preta */
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #FFA500; /* Laranja */
+        }
+        section {
+            padding: 20px;
+            background-color: #F5F5F5; /* Cinza muito claro */
+            border: 1px solid #000; /* Borda preta */
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #FFA500; /* Laranja */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            border-top: 2px solid #000; /* Borda preta */
+        }
+        .content {
+            margin-bottom: 50px; /* Espaço para o footer fixo */
+        }
+        h2 {
+            color: #333; /* Cinza escuro */
+        }
+        .computer-info {
+            background-color: #FFF; /* Branco */
+            border: 1px solid #000; /* Borda preta */
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .computer-info p {
+            margin: 5px 0;
+            font-weight: bold;
+        }
+        .computer-info span {
+            font-weight: normal;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #F5F5F5; /* Cinza muito claro */
+            border: 1px solid #000; /* Borda preta */
+        }
+        th, td {
+            border: 1px solid #000; /* Borda preta */
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #4F4F4F; /* Cinza médio */
+            color: #FFA500; /* Laranja */
+        }
+        .contact-info {
+            background-color: #F5F5F5; /* Cinza muito claro */
+            padding: 15px;
+            border: 1px solid #000; /* Borda preta */
+            margin: 20px 0;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="suf-title">SUF</h1>
+    </header>
+
+    <nav>
+        <a href="#controle-computador">Controle de Computador</a>
+        <a href="#controle-tonner">Controle de Toner</a>
+        <a href="#controle-compras">Controle de Compras</a>
+    </nav>
+
+    <div class="content">
+        <section id="controle-computador">
+            <h2>Computadores</h2>
+            <p>Acompanhe o desempenho e estado dos computadores.</p>
+            <div class="computer-info">
+                <p>Host: <span>Computador01</span></p>
+                <p>IP: <span>192.168.0.10</span></p>
+                <p>MAC: <span>00:1A:2B:3C:4D:5E</span></p>
+                <p>Condição: <span>Operacional</span></p>
+            </div>
+            <div class="computer-info">
+                <p>Host: <span>Computador02</span></p>
+                <p>IP: <span>192.168.0.11</span></p>
+                <p>MAC: <span>00:1A:2B:3C:4D:5F</span></p>
+                <p>Condição: <span>Manutenção</span></p>
+            </div>
+            <!-- Adicione mais computadores conforme necessário -->
+        </section>
+
+        <section id="controle-tonner">
+            <h2>Toners</h2>
+            <p>Gerencie os níveis de toner, datas de reposição e histórico de utilização.</p>
+            <p><strong>Estoque:</strong></p>
+            <ul class="tonner-list">
+                <li>GRP-39: 6 Unidades</li>
+                <li>203U: 5 Unidades</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Data</th>
+                        <th>Local</th>
+                        <th>Responsável</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GRP-39</td>
+                        <td>30/01/24</td>
+                        <td>Flamboyant</td>
+                        <td>Joice</td>
+                    </tr>
+                    <tr>
+                        <td>GRP-39</td>
+                        <td>26/02/24</td>
+                        <td>Jacaranda</td>
+                        <td>Anacsm</td>
+                    </tr>
+                    <tr>
+                        <td>GRP-39</td>
+                        <td>05/03/24</td>
+                        <td>Carvalho</td>
+                        <td>Maurides</td>
+                    </tr>
+                    <tr>
+                        <td>203U</td>
+                        <td>07/03/24</td>
+                        <td>Jatoba</td>
+                        <td>Nayarasv</td>
+                    </tr>
+                    <tr>
+                        <td>203U</td>
+                        <td>10/04/24</td>
+                        <td>Itauba</td>
+                        <td>Maickson</td>
+                    </tr>
+                    <tr>
+                        <td>GRP-39</td>
+                        <td>13/06/24</td>
+                        <td>Carvalho</td>
+                        <td>Maurides</td>
+                    </tr>
+                    <tr>
+                        <td>GRP-39</td>
+                        <td>19/06/24</td>
+                        <td>Jacaranda</td>
+                        <td>Milton</td>
+                    </tr>
+                    <tr>
+                        <td>203U</td>
+                        <td>24/06/24</td>
+                        <td>Samsung</td>
+                        <td>Cida</td>
+                    </tr>
+                    <tr>
+                        <td>GRP-39</td>
+                        <td>28/06/24</td>
+                        <td>Mutambo</td>
+                        <td>Suzana</td>
+                    </tr>
+                    <tr>
+                        <td>GRP-39</td>
+                        <td>05/07/24</td>
+                        <td>Mutambo</td>
+                        <td>Suzana</td>
+                    </tr>
+                    <tr>
+                        <td>GRP-39</td>
+                        <td>08/06/24</td>
+                        <td>Carvalho</td>
+                        <td>Tainara</td>
+                    </tr>
+                    <tr>
+                        <td>203U</td>
+                        <td>30/07/24</td>
+                        <td>Jambo</td>
+                        <td>Gabriela</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="contact-info">
+                <h3>Contatos da Empresa Dimex</h3>
+                <p><strong>Augusto:</strong> <a href="mailto:augusto@dimex.com.br">augusto@dimex.com.br</a> - Pedidos de toners</p>
+                <p><strong>Danilo:</strong> <a href="mailto:tecnica@dimex.com.br">tecnica@dimex.com.br</a> - Manutenção</p>
+                <p><strong>Cassiano:</strong> <a href="mailto:tecnica1@dimex.com.br">tecnica1@dimex.com.br</a> - Manutenção</p>
+            </div>
+        </section>
+
+        <section id="controle-compras">
+            <h2>Controle de Compras</h2>
+            <p>Gerencie as compras realizadas e mantenha um histórico organizado.</p>
+            <ul class="purchase-list">
+                <li>Compra de Memória RAM - 8GB DDR4 - Data: 01/08/2024</li>
+                <li>Compra de Toner Preto - Data: 15/07/2024</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>SUF PEIXOTO 2024</p>
+    </footer>
+</body>
+</html>
